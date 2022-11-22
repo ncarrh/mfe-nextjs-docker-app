@@ -1,0 +1,1 @@
+# mfe-nextjs-docker-app
