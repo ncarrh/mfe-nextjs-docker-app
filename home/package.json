@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 5001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@module-federation/nextjs-mf": "^5.12.9",
+    "@module-federation/typescript": "1.1.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
@@ -17,6 +19,10 @@
     "next": "13.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.3"
+    "typescript": "4.9.3",
+    "webpack": "5.74.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }
